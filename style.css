@@ -217,17 +217,31 @@ li {
   color: white;
   background: #0f0f0f;
 }
-
 .faq_box-4 {
+  flex-direction: column;
+  background: #0f0f0f;
+  border-radius: 12px;
+  border: 1px solid red;
+}
+
+.faq_box-data {
   display: flex;
   gap: 20px;
   align-items: center;
   border-radius: 12px;
-  border: 1px solid red;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   padding: 15px;
   color: white;
-  background: #0f0f0f;
+}
+.faq_box-text {
+  margin: 0 auto;
+  max-width: 400px;
+}
+.faq_box-text > p {
+  background: #181818;
+  color: white;
+  font-family: "ZCOOL KuaiLe", sans-serif;
+  border-radius: 12px;
+  padding: 10px 20px;
 }
 
 .footer {
@@ -272,4 +286,7 @@ li {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.faq_box-data {
 }
